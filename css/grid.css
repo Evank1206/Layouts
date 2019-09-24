@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+}
+header{
+    height: 10vh;
+    background-color:#1ec0ff;
+}
+h1{
+    background-color:grey;
+    color: White;
+    /* text-align: center; */
+    padding-top:20px;   
+}
+
+header ul{
+    position: relative;
+    float:right;
+}
+header li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 16px;
+    font-size: 19px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+main{
+    background-color: purple;
+     min-height: 80vh;
+     width: 50%;
+     margin: 0 auto;
+     border: 5px solid black;
+ }
+
+ section{
+
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-gap: 1em;
+
+ }
+ .card{
+     border: solid #1ec0ff;
+ }
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ footer{
+     height: 10vh;
+     background-color:#1ec0ff;
+ }
+ 

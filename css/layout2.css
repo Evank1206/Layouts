@@ -28,25 +28,48 @@ header a{
 }
 
 main{
-    background-color: purple;
+    /* background-color: purple; */
      min-height: 80vh;
      width: 50%;
      margin: 0 auto;
      border: 5px solid black;
  }
  
- section .col{
-     width: 26%;
+ .side-nav-bar-left{
+     width: 25%;
      float: left;
-     margin-right: 3%;
-     padding: 2%;
+     border: solid rgb(128, 94, 0);
+     background-color:olive;
+     height: 520px;
  }
- .left{
-     
-    min-width: 50%;
-     min-height: 50%;
-     float: left;
- }
+.side-nav-bar-right{
+    width: 25%;
+    float: right;
+    background-color: lightgrey;
+    border: solid red;
+}
+.side-nav-bar-main{
+    width: 42%;
+    float: right;
+    border:solid blue;
+    height: 520px;
+    background-color: lightseagreen;
+}
+.side-nav-bar-bottom{
+    clear: both;
+    background-color:green;
+    border: solid orange;
+
+
+}
+
+.side-nav-bar-left, 
+.side-nav-bar-right, 
+.side-nav-bar-main,
+.side-nav-bar-bottom{
+    margin: 1%;
+
+}
  
  
  
