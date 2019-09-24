@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+}
+header{
+    height: 10vh;
+    background-color:#1ec0ff;
+}
+h1{
+    background-color:grey;
+    color: White;
+    /* text-align: center; */
+    padding-top:20px;   
+}
+
+header ul{
+    position: relative;
+    float:right;
+}
+header li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 16px;
+    font-size: 19px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+main{
+    background-color: purple;
+     min-height: 80vh;
+     width: 50%;
+     margin: 0 auto;
+     border: 5px solid black;
+ }
+ 
+ section .col{
+     width: 26%;
+     float: left;
+     margin-right: 3%;
+     padding: 2%;
+ }
+ .left{
+     
+    min-width: 50%;
+     min-height: 50%;
+     float: left;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ footer{
+     height: 10vh;
+     background-color:#1ec0ff;
+ }
+ 
